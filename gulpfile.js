@@ -17,7 +17,7 @@ liferayThemeTasks.registerTasks({
 	gulp,
 });
 
-const designSystemConfig =  jsonfile.readFileSync('design-system.json')
+const designSystemConfig =  jsonfile.readFileSync('config-file.json')
 const sourcePath = designSystemConfig.sourcePath
 const buildCommand = designSystemConfig.buildCommand
 

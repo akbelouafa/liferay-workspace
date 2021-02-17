@@ -1,0 +1,4 @@
+{
+    "sourcePath": "../../",
+    "buildCommand" : "gulp build"
+  }
